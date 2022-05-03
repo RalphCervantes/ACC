@@ -2,10 +2,10 @@
   <div class="col-md-4 col-lg-3">
     <div class="widget">
       @@if (!context.lightText) {
-        <img class="mb-4" src="@@webRoot/assets/img/dacc-logo.png" srcset="@@webRoot/assets/img/logo-dark@2x.png 2x" alt="" />
+        <img class="mb-4" src="@@webRoot/assets/img/dacc-logo.png" alt="" />
       }
       @@if (context.lightText) {
-        <img class="mb-4" src="@@webRoot/assets/img/dacc-logo.png" srcset="@@webRoot/assets/img/logo-light@2x.png 2x" alt="" />
+        <img class="mb-4" src="@@webRoot/assets/img/dacc-logo.png" alt="" />
       }
       <p class="mb-4">© 2021 Direct Automotive Collision Center. <br class="d-none d-lg-block" />All rights reserved.</p>
       <nav class="nav social @@if (context.lightText) {social-white}">
